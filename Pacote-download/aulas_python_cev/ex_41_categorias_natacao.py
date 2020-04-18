@@ -3,11 +3,11 @@ from datetime import date
 idade = (date.today().year - nasc)
 if idade <= 9:
     print('MIRIM')
-elif 9 < idade <= 14:
+elif idade <= 14:
     print('INFANTIL')
-elif 14 < idade <= 19:
+elif idade <= 19:
     print('JUNIOR')
-elif 19 < idade <= 20:
+elif idade <= 25:
     print('Sênior')
 else:
     print('MASTER')

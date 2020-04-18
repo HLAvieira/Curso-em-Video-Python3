@@ -13,3 +13,5 @@ elif pag == 3:
     print('O valor final do produto é R${:.2f}'.format(valor))
 elif pag == 4:
     print('O valor final do produto é R${:.2f}'.format(valor * 1.2))
+else:
+    print('\033[31mOpção de pagamento inválida\033[m')
