@@ -1,11 +1,14 @@
-'''n = int(input('Digite um número para calcular seu fatorial: '))
+n = int(input('Digite um número para calcular seu fatorial: '))
 c = n
 culm = 1
-while n > 0:
-    culm = culm * n
-    n = n-1
-print('{}! é igual a {}'.format(c, culm))'''
-n = int(input('Digite um número para calcular seu fatorial: '))
+print(f'{n} ! = ', end='')
+while c > 0:
+    culm = culm * c
+    print(f'{c} ', end='')
+    print(' X ' if c > 1 else ' = ', end='')
+    c -= 1
+print((culm))
+'''n = int(input('Digite um número para calcular seu fatorial: '))
 c = n
 cuml = 1
 if n == 0:
@@ -13,4 +16,4 @@ if n == 0:
 else:
     for i in range(n, 0, -1):
         cuml = cuml*i
-    print('{}! é igual a {}'.format(c, cuml))
+    print('{}! é igual a {}'.format(c, cuml))'''
